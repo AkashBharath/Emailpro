@@ -9,13 +9,14 @@ public class EmailGenration {
 	        Date date = new Date();
 	        String today = date.toString();
 	        String tdate = today.replaceAll("\\s", "");
-	        String dremove = tdate.replaceAll("\\:", "");
+	        String dremove = bdate.replaceAll("\\:", "");
 	        String emailadd = dremove+"@gmail.com";
 	        
 	        System.out.println(emailadd);
 	      
 	    }
 	}
+
 
 
 
