@@ -12,10 +12,10 @@ public class EmailGenration {
 	        String dremove = bdate.replaceAll("\\:", "");
 	        String emailadd = dremove+"@gmail.com";
 	        
-	        System.out.println(emailadd);
 	      
 	    }
 	}
+
 
 
 
