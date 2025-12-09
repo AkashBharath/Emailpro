@@ -11,7 +11,7 @@ public class EmailGenration {
 	        String tdate = today.replaceAll("\\s", "");
 	        String dremove = tdate.replaceAll("\\:", "");
 	        String emailid = dremove+"@gmail.com";
-			System.out.print("");
+			System.out.print("sdfghjkl");
 	        
 	        System.out.println(emailid);
 	       
